@@ -156,7 +156,9 @@ Through this project, I gained experience in:
 
 ---
 
-Author: Do Hoang Long
+Author: 
+
+Do Hoang Long
 
 GitHub: https://github.com/hoanglongdev-16
 
