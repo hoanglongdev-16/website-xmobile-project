@@ -1,0 +1,182 @@
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+
+    background: url("../images/bg1.jpg") center/cover no-repeat fixed;
+}
+
+/* CONTAINER */
+.container{
+
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(10px);
+
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+
+    text-align: center;
+}
+
+/* TITLE */
+h2{
+
+    font-size: 32px;
+
+    margin-bottom: 25px;
+
+    color: white;
+}
+
+/* INPUT GROUP */
+.input-group{
+
+    position: relative;
+
+    margin-bottom: 18px;
+
+    text-align: left;
+}
+
+/* LABEL */
+.input-group label{
+
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+/* INPUT */
+.input-group input{
+
+    width: 100%;
+
+    padding: 12px 12px 12px 40px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    background: rgba(255,255,255,0.9);
+
+    font-size: 14px;
+
+    box-sizing: border-box;
+}
+
+/* PLACEHOLDER */
+.input-group input::placeholder{
+    color: #777;
+}
+
+/* ICON */
+.input-group i{
+
+    position: absolute;
+
+    left: 12px;
+
+    top: 38px;
+
+    color: #777;
+
+    font-size: 16px;
+}
+
+/* BUTTON */
+.signup-btn{
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #ffc107;
+
+    color: #111;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.signup-btn:hover{
+
+    background: #ffca2c;
+
+    transform: translateY(-2px);
+}
+
+/* LOGIN LINK */
+.login-link{
+
+    margin-top: 15px;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+.login-link a{
+
+    color: #ffc107;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.login-link a:hover{
+    text-decoration: underline;
+}
+
+/* IMAGE */
+.login-image{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-image img{
+    width: 80px;
+    height: auto;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+    transition: 0.3s ease;
+}
+
+.login-image img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,71 @@
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            color: #333333; /* Màu chữ tiêu đề */
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 5px 30px;
+        }
+
+        button {
+            background-color: #ffc107; /* Màu vàng cho nút */
+            color: #121212; /* Màu chữ đen cho nút */
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 0;
+        }
+        
+        button:hover {
+            background-color: #e0a800; /* Màu vàng đậm khi hover */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            border: 1px solid #ccc; /* Đường viền màu xám nhạt */
+        }
+
+        th {
+            background-color: #1d1919; /* Nền đen cho header */
+            color: #ffc107; /* Màu vàng cho chữ trong header */
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #f9f9f9; /* Nền sáng cho các ô dữ liệu */
+            color: #000;
+        }
+
+        td a {
+            color: #ffc107; /* Màu vàng cho các liên kết */
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #f1f1f1; /* Nền sáng cho liên kết */
+        }
+
+        td a:hover {
+            background-color: #e0a800; /* Nền vàng đậm khi hover */
+            color: #121212; /* Chữ đen khi hover */
+        }
+
+        td a.delete {
+            background-color: #dc3545; /* Màu đỏ cho nút xóa */
+            color: white; /* Chữ trắng khi xóa */
+        }
+
+        td a.delete:hover {
+            background-color: #c82333; /* Màu đỏ đậm khi hover */
+        }

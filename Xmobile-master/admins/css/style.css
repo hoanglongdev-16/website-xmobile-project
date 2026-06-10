@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url('../images/130-hinh-nen-may-tinh-4k-103-1.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #111;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.login-box {
+  color: #fff;
+  text-align: center;
+}
+
+.admin-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #fdbf2d;
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #fdbf2d;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+form input::placeholder {
+  color: #999;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #fdbf2d;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #111;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #e0a800;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}
